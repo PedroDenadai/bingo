@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    background-color: aquamarine;
+}
+
+#imagem{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+
+#titulo{
+    width: 50%;
+   display: flex;
+   justify-content: start;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main section#cartelas{
+    width: 70%;
+    height: 76vh;
+    background-color: burlywood;
+}
+
+#cartelas h2{
+    text-align: center;
+}
+
+
+main section#numeros {
+    width: 30%;
+    height: 76vh;
+    background-color: violet;   
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#numeros button{
+    margin-top: 20px;
+}
+
+#botoes{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    border-radius: 10px;
+    transition: transform 1s; /* Adiciona uma transição suave à animação */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: antiquewhite;
+    color: #000000;
+    height: 35px;
+    width: 130px;
+    transform: scale(1.2); /* Aumenta o botão em 100% (escala 2) e o roda 360 graus */
+    transition: transform 1s; /* Adiciona uma transição suave à animação de transformação */
+  }
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divTabela table {
+    border-collapse: collapse;
+    margin: 20px;
+    
+}
+
+.divTabela h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.divTabela th,
+.divTabela td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.divTabela th {
+    background-color: #899E8B;
+    color: #FFFFFF;
+}
+
+.divTabela td {
+    background-color: #FFFFFF;
+}
+
+#espaco_cartelas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 5%;
+}
+
+#jogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+}
+
+span{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #899E8B;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
